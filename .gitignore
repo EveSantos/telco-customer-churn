@@ -1,0 +1,29 @@
+# Ignorar dados
+/data/
+
+# Ignorar ambientes virtuais do Python
+.venv/
+env/
+venv/
+ENV/
+
+# Ignorar cache e arquivos compilados do Python
+__pycache__/
+*.pyc
+
+# Ignorar checkpoints do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignorar arquivos de configuração de IDE e SO
+.vscode/
+.idea/
+.DS_Store
+
+# Ignorar arquivos de saída (opcional, mas recomendado)
+*.pkl
+*.joblib
+*.png
+*.jpg
+
+# Ignorar arquivos de ambiente com senhas/chaves (se houver)
+.env
